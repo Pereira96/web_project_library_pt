@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header>
+        <div class="header">
+          <nav class="nav">
+            <img
+              src="./images/logo.svg"
+              alt="Logotipo da Biblioteca Triple Peaks"
+              class="nav__logo"
+            />
+            <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
+            <ul class="nav__links">
+              <li>
+                <a href="#staff" class="nav__link">Escolhas da Equipe</a>
+              </li>
+              <li>
+                <a href="#id" class="nav__link">Eventos</a>
+              </li>
+              <li>
+                <a href="#id" class="nav__link">Seja um membro</a>
+              </li>
+              <li>
+                <a href="#id" class="nav__link">Contatos</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__content">
+            <div>
+              <h1 class="header__title">Bem-vindo à Biblioteca Triple Peaks</h1>
+              <p class="header__description">
+                Temos o prazer de abrir as portas da nossa biblioteca a todos!
+                Venha expandir seus conhecimentos de desenvolvimento, ou apenas
+                use esse belo local para trabalhar ou estudar. Esse é um lugar
+                legal para estudantes legais!
+              </p>
+            </div>
+            <img
+              class="header__image"
+              src="./images/inside_the_library.png"
+              alt="Ilustração 'Dentro da biblioteca'"
+            />
+          </div>
+          <div class="header__footer">
+            <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="staff" class="staff">
+          <h2 class="staff__title">Escolhas da Equipe</h2>
+          <p class="staff__subtitle">Que nossos leitores adoram</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Algoritmos: Teoria e Prática</h3>
+                <p class="card__text">
+                  Esse livro é uma introdução adequada aos algoritmos!
+                  Introdução aos algoritmos, ou CLRS, em referência aos
+                  sobrenomes dos autores, aprofunda e abrange uma variedade de
+                  algoritmos em vários capítulos independentes.
+                </p>
+                <p class="card__footer">
+                  Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest,
+                  Clifford Stein
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  A Estrutura e Interpretação de Programas de Computador (SICP,
+                  na sigla em inglês)
+                </h3>
+                <p class="card__text">
+                  Esse é um dos melhores livros para aprender os fundamentos da
+                  programação. Destacado pelo MIT em um de seus cursos
+                  fundamentais de programação, SICP é um livro de programação de
+                  uso geral que utiliza Scheme para ilustrar diversos conceitos
+                  de programação.
+                </p>
+                <p class="card__footer">
+                  Harold Abelson, Gerald Jay Sussman, Julie Sussman
+                </p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  O Codificador Limpo: Um Código de Conduta para Programadores
+                  Profissionais
+                </h3>
+                <p class="card__text">
+                  Compilado pelo experiente desenvolvedor de software e autor
+                  Robert C. Martin (também conhecido como Tio Bob), esse livro
+                  aborda as técnicas e ferramentas da verdadeira capacidade do
+                  software. Explica como escrever um código limpo e demonstrar
+                  como cultivar a atitude de um programador competente e
+                  profissional.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">
+                  Code Complete: Um Manual Prático de Construção de Software
+                </h3>
+                <p class="card__text">
+                  Quer saber como escrever um código robusto, independentemente
+                  da arquitetura por trás da linguagem de programação escolhida?
+                  Em seguida, considere a leitura do livro: Code Complete: Um
+                  Manual Prático de Construção de Software. Construção. Ele
+                  aborda de forma abrangente tudo relacionado à boa estrutura de
+                  código.
+                </p>
+                <p class="card__footer">Steve McConnell</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
