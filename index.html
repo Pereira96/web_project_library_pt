@@ -19,7 +19,6 @@
               alt="Logotipo da Biblioteca Triple Peaks"
               class="nav__logo"
             />
-            <!-- Colocar links de navegação em uma lista é supostamente a melhor prática para escrever o código semântico, pois permite que os leitores de tela façam uma pausa entre cada link em vez de ler todos os links como uma frase. -->
             <ul class="nav__links">
               <li>
                 <a href="#staff" class="nav__link">Escolhas da Equipe</a>
@@ -28,10 +27,10 @@
                 <a href="#events" class="nav__link">Eventos</a>
               </li>
               <li>
-                <a href="#id" class="nav__link">Seja um membro</a>
+                <a href="#membership" class="nav__link">Seja um membro</a>
               </li>
               <li>
-                <a href="#id" class="nav__link">Contatos</a>
+                <a href="#Footer" class="nav__link">Contatos</a>
               </li>
             </ul>
           </nav>
@@ -213,9 +212,119 @@
               />
             </div>
           </div>
-          <!-- Comece a criar a composição aqui -->
+        </section>
+        <section id="membership" class="membership">
+          <h2 class="membership__title">
+            Tornar-se membro da biblioteca é fácil!
+          </h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Preencha o formulário de filiação online ou pessoalmente.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Venha retirar seu cartão da biblioteca na recepção.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Assine o verso do cartão.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Aproveite todos os benefícios incríveis!
+              </p>
+            </li>
+          </ul>
         </section>
       </main>
+      <footer id="Footer" class="footer">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="images/logo_white.svg"
+              alt="Logotipo triple ten"
+              class="footer__logo"
+            />
+          </div>
+          <div class="footer__column">
+            <div class="footer__column_content_hours">
+              <h3 class="footer__column-heading">Horário de Funcionamento</h3>
+              <ul class="footer__list">
+                <li class="footer__list-item">Dias utéis:09h-20h</li>
+                <li class="footer__list-item">
+                  Finais de semana:10hrs às18hrs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column_content_social">
+              <h4 class="footer__column-heading">Redes sociais</h4>
+              <div class="footer__list">
+                <ul class="footer__list-item">
+                  <li class="footer__column-link">
+                    <a href="#" class="footer__social-icon">
+                      <img
+                        src="./images/facebook_white.svg"
+                        alt="icone
+                      facebook"
+                      />
+                    </a>
+                    <a href="#" class="footer__column-link">Facebook</a
+                    ><!-- Adicionei essa classe aqui mas tbm está no li, deve ter algo errado -->
+                  </li>
+                  <li class="footer__column-link">
+                    <a href="#" class="footer__social-icon">
+                      <img
+                        src="images/instagram_white.svg"
+                        alt="icone
+                      instagram"
+                      />
+                    </a>
+                    <a href="#" class="footer__column-link">instagram</a>
+                    <!-- Adicionei essa classe aqui mas tbm está no li, deve ter algo errado -->
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Gustavo Pereira</p>
+      </footer>
     </div>
   </body>
 </html>
